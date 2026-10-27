@@ -71,8 +71,8 @@ pub mod service;
 pub(crate) mod transport;
 
 use builder::ServerBuilder;
-use interceptor::Identity;
 pub use http2_config::Http2Config;
+use interceptor::Identity;
 
 /// Settings to configure RPCs sent using the [`Handle`] trait.
 ///
